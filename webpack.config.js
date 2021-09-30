@@ -6,7 +6,7 @@ module.exports = {
     mode: 'production',
     entry: './src/js/index.js',
     output: {
-        path: path.resolve(__dirname, './root'),
+        path: path.resolve(__dirname, './docs'),
         filename: 'index.js',
         clean: true
     },
