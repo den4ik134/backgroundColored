@@ -3,11 +3,11 @@ const path = require('path');
 const DevMode = process.env.NODE_ENV !== 'production';
 
 module.exports = {
-    mode: 'development',
+    mode: 'production',
     entry: './src/js/index.js',
     output: {
         path: path.resolve(__dirname, './dist'),
-        filename: 'index.[hash].js',
+        filename: 'index.js',
         clean: true
     },
     devtool: 'inline-source-map',
